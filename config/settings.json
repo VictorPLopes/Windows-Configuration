@@ -51,34 +51,29 @@
             "adjustIndistinguishableColors": "indexed",
             "font": 
             {
-                "face": "CaskaydiaCove NF",
+                "face": "CaskaydiaCove Nerd Font",
                 "size": 10.0
             },
+            "intenseTextStyle": "all",
             "opacity": 75,
             "useAcrylic": true
         },
         "list": 
         [
             {
-                "colorScheme": "Tokyo Night",
-                "commandline": "\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\" -NoLogo -NoExit -Command winfetch",
+                "colorScheme": "One Dark Pro",
+                "commandline": "pwsh -NoLogo -NoExit",
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
                 "hidden": false,
+                "intenseTextStyle": "all",
                 "name": "PowerShell",
                 "source": "Windows.Terminal.PowershellCore",
                 "suppressApplicationTitle": true,
-                "tabTitle": "PowerShell 7"
-            },
-            {
-                "cursorShape": "bar",
-                "guid": "{8c701c6d-1341-546d-84ae-1a1fb3a809ed}",
-                "hidden": false,
-                "name": "Ubuntu (Preview)",
-                "source": "CanonicalGroupLimited.UbuntuPreview_79rhkp1fndgsc"
+                "tabTitle": "PowerShell 7 Preview"
             },
             {
                 "colorScheme": "Aurora",
-                "commandline": "C:\\Users\\Victor\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+                "commandline": "python",
                 "guid": "{c4b191bc-ecb6-45e2-b27e-4a3151c1db3f}",
                 "hidden": false,
                 "icon": "C:\\Users\\Victor\\Pictures\\Icons\\Windows 11\\icons8-python-48.png",
@@ -99,6 +94,7 @@
                 "tabTitle": "SQL Shell"
             },
             {
+                "experimental.retroTerminalEffect": false,
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": false,
                 "name": "Command Prompt"
@@ -117,13 +113,6 @@
                 "source": "Windows.Terminal.Azure"
             },
             {
-                "colorScheme": "Ubuntu-Preview-ColorScheme",
-                "guid": "{491fa895-2dca-5d90-ba62-3da4b59cffe2}",
-                "hidden": true,
-                "name": "Ubuntu-Preview",
-                "source": "Windows.Terminal.Wsl"
-            },
-            {
                 "guid": "{f8aa74b7-31cc-5a1b-bc30-ea1530d38b63}",
                 "hidden": false,
                 "name": "Developer Command Prompt for VS 2022 [Preview]",
@@ -134,6 +123,12 @@
                 "hidden": false,
                 "name": "Developer PowerShell for VS 2022 [Preview]",
                 "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{16208362-94fc-5b1f-a491-5b2624d5ab56}",
+                "hidden": true,
+                "name": "Visual Studio Debug Console",
+                "source": "VSDebugConsole"
             }
         ]
     },
@@ -324,27 +319,27 @@
             "yellow": "#FFCB6B"
         },
         {
-            "background": "#1E2127",
-            "black": "#000000",
-            "blue": "#61AFEF",
-            "brightBlack": "#5C6370",
-            "brightBlue": "#61AFEF",
-            "brightCyan": "#56B6C2",
-            "brightGreen": "#98C379",
-            "brightPurple": "#C678DD",
-            "brightRed": "#E06C75",
-            "brightWhite": "#FFFFFF",
-            "brightYellow": "#D19A66",
-            "cursorColor": "#FFFFFF",
-            "cyan": "#56B6C2",
-            "foreground": "#5C6370",
-            "green": "#98C379",
-            "name": "One Dark",
-            "purple": "#C678DD",
-            "red": "#E06C75",
-            "selectionBackground": "#FFFFFF",
-            "white": "#ABB2BF",
-            "yellow": "#D19A66"
+            "background": "#282C34",
+            "black": "#3F4451",
+            "blue": "#4AA5F0",
+            "brightBlack": "#4F5666",
+            "brightBlue": "#4DC4FF",
+            "brightCyan": "#4CD1E0",
+            "brightGreen": "#A5E075",
+            "brightPurple": "#DE73FF",
+            "brightRed": "#FF616E",
+            "brightWhite": "#E6E6E6",
+            "brightYellow": "#F0A45D",
+            "cursorColor": "#528BFF",
+            "cyan": "#42B3C2",
+            "foreground": "#ABB2BF",
+            "green": "#8CC265",
+            "name": "One Dark Pro",
+            "purple": "#C162DE",
+            "red": "#E05561",
+            "selectionBackground": "#ABB2BF",
+            "white": "#D7DAE0",
+            "yellow": "#D18F52"
         },
         {
             "background": "#282C34",
@@ -524,6 +519,29 @@
             "foreground": "#A9B1DC",
             "green": "#73DACA",
             "name": "Tokyo Night",
+            "purple": "#BB9AF7",
+            "red": "#F7768E",
+            "selectionBackground": "#28344A",
+            "white": "#C0CAF5",
+            "yellow": "#E0AF68"
+        },
+        {
+            "background": "#1A1B2C",
+            "black": "#4F5880",
+            "blue": "#7AA2F7",
+            "brightBlack": "#7E8DCC",
+            "brightBlue": "#C4D5F9",
+            "brightCyan": "#C9EBFF",
+            "brightGreen": "#B9DFD9",
+            "brightPurple": "#CAB1F9",
+            "brightRed": "#F98EA1",
+            "brightWhite": "#D6DCF7",
+            "brightYellow": "#E6BC7E",
+            "cursorColor": "#C0CAF5",
+            "cyan": "#7DCFFF",
+            "foreground": "#A9B1DC",
+            "green": "#73DACA",
+            "name": "Tokyo Night Bright",
             "purple": "#BB9AF7",
             "red": "#F7768E",
             "selectionBackground": "#28344A",
